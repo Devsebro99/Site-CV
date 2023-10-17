@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8816d67.css",
+    "main.js": "/static/js/main.e4e64760.js",
+    "static/media/matete01.jpg": "/static/media/matete01.c39f49bc3caeeca5b792.jpg",
+    "index.html": "/index.html",
+    "main.a8816d67.css.map": "/static/css/main.a8816d67.css.map",
+    "main.e4e64760.js.map": "/static/js/main.e4e64760.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8816d67.css",
+    "static/js/main.e4e64760.js"
+  ]
+}

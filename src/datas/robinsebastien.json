@@ -1,0 +1,98 @@
+[
+    {
+        "id":"245788",
+        "langue":"FR",
+        "nom":"Robin",
+        "prenom":"Sébastien",
+        "addresse":"36 Avenue des Alliés",
+        "ville":"77320 La Ferté Gaucher",
+        "titre":"Junior Développeur Web",
+        "projets":[
+            "2022: Formation Développeur Web Full-stack (niveau 5)",
+            "2014: Formation Leadership niveau 1",
+            "2013: Formation 5 minutes pour convaincre",
+            "2005: Formation Chef d'équipe Logistique (8mois)",
+            "2001: BTS Electronique"
+        ],
+        "experiences":[
+            "Projet Booki => création d’un page web en html et css.",
+            "Projet Ohmyfood => création des pages web en html, css et sass.",
+            "Projet La Panthère => Optimisation pour le SEO du site en html et css.",
+            "Projet Kanap => Création d’un site web en Javascript.",
+            "Projet Sauce Piquante => Création d’une API rest pour ce site.",
+            "Projet Kasa => Création d’un site web en html, css et React.",
+            "Toutes ces créations sur GitHub dans « Contacts »."
+        ],
+        "profile":"Très polyvalente, motivée je suis  à la recherche d’un emploi dans le domaine de Développeur Full-stack, front-end ou back-end.",
+        "competences":{
+            "informatique": "Windows, Word, Excel",
+            "languages": "HTML 5, Css, Sass, JavaScript ES14, Node.js",
+            "frameworks": "React 18, Express v4.18, Mongoose ODM v7.1.1",
+            "outils": "Visual Studio Code, MongoDB, Postman, GitHub",
+            "langues":[
+                "Francais => C2",
+                "Anglais => B1",
+                "Espagnol=> A1"
+            ]
+        },
+        "interet":[
+            "Former les personnes et evaluer leurs potentiels dans tous domaines (dans les jeux vidéo, le travail, le quotidien).",
+            "J’aime apprendre par échange de savoir."
+        ],
+        "contacts":[
+            "Tel: 06.21.87.11.08.",
+            "E-mail: sebastien.robin.956@gmail.com",
+            "Linkedin: https://www.linkedin.com/in/sebastien-robin-772462136/",
+            "GitHub: https://github.com/Devsebro99"
+        ]
+    },
+    {
+        "id":"195877",
+        "langue":"EN",
+        "nom":"Robin",
+        "prenom":"Sébastien",
+        "addresse":"36 Avenue des Alliés",
+        "ville":"77320 La Ferté Gaucher",
+        "titre":"Junior Web Developer",
+        "projets":[
+            "2022: Full Stack Web Developer Training",
+            "2014: Level 1 Leadership Training",
+            "2013: Training 5 minutes to convince",
+            "2005: Logistics Team Leader Training (8 months)",
+            "2001: BTS Electronics"
+        ],
+        "experiences":[
+            "Projet Booki => creation of a web page in html and css.",
+            "Projet Ohmyfood => creation of web pages in html, css and sass.",
+            "Projet La Panthère => Optimization for the SEO of the site in html and css.",
+            "Projet Kanap => Creation of a website in JavaScript.",
+            "Projet Sauce Piquante => Create a rest API for this site.",
+            "Projet Kasa => Creation of a website in html, css and React.",
+            "All these creations on GitHub in Contacts."
+        ],
+        "profile":"Very versatile, motivated I am looking for a job in the field of Full-stack Developer, front-end or back-end.",
+        "competences":{
+            "informatique": "Windows, Word, Excel",
+            "languages": "HTML 5, Css, Sass, JavaScript ES14, Node.js",
+            "frameworks": "React 18, Express v4.18, Mongoose ODM v7.1.1",
+            "outils": "Visual Studio Code, MongoDB, Postman, GitHub",
+            "langues":[
+                "Francais => C2",
+                "Anglais => B1",
+                "Espagnol=> A1"
+            ]
+        },
+        "interet":[
+            "Train people and assess their potential in all areas (in video games, work, everyday life).",
+            "I like to learn by exchanging knowledge."
+        ],
+        "contacts":[
+            "Tel:06.21.87.11.08.",
+            "E-mail: sebastien.robin.956@gmail.com",
+            "Linkedin: https://www.linkedin.com/in/sebastien-robin-772462136/",
+            "GitHub: https://github.com/Devsebro99"
+        ]
+    }
+    
+]
+
