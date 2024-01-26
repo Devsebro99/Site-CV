@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #89bba0;
+  --secondary-color: #9356dc;
+  --tertiary-color: #273bb7;
+  --fourth-color: darkgray;
+  --five-color:red;
+  --black-color: black;
+  --white-color: #ffffff;
+  
+
+  --gradiant-color: linear-gradient(
+    var(--secondary-color),
+    var(--tertiary-color)
+  );
+}
+
+/* var(--primary-color) */
+/* var(--secondary-color) */
+/* var(--tertiary-color) */
+/* var(--fourth-color) */
+/* var(--five-color)*/
+/* var(--gradiant-color) */
+/* var(--black-color) */
+/* var(--white-color) */

@@ -1,0 +1,29 @@
+@import './../../styles/sass/index.scss';
+
+.menu {
+  height: 120px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  .button {
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white-color);
+    @include varlinear-gradient();
+    background-position: center;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    &:hover {
+      background-position: 80%;
+      transform: rotateY(40deg);
+      @include varlinear-gradient();
+    }
+  }
+}

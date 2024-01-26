@@ -1,0 +1,9 @@
+@import './../../styles/sass/index.scss';
+
+.footer {
+  @include flex_column;
+  @include align-center;
+  width: 100%;
+  height: 150px;
+  @include gradient;
+}

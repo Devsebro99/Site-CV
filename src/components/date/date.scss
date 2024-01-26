@@ -1,0 +1,18 @@
+@import './../../styles/sass/index.scss';
+
+.day {
+  @include flex_column;
+  @include align-center;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  text-align: center;
+  color: var(--white-color);
+  border: 1px solid var(--black-color);
+  box-shadow: 10px 10px 0px 0px var(--black-color);
+  width: 15%;
+  height: 10%;
+  .time {
+    margin: 5px;
+    font-size: 1.5em;
+  }
+}

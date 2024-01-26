@@ -1,23 +1,21 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { SharedStateContext } from '../../components/Props'
+import { SharedStateContext } from '../../components/props/Props.jsx'
 import datas from '../../datas/robinsebastien.json'
 import matete01 from '../../assets/matete01.jpg'
-import './curriculum.css'
+import './curriculum.scss'
 import Menu from '../../layouts/menu/Nav'
+import Footer from '../../layouts/footer/Footer.jsx'
 
-function Curriculum() {
-  console.log(datas)
-
+export default function Curriculum() {
+  // definit l'utilisation de la langue francais ou anglais selon l'utilisateur
   const [langue, setLangue] = useState(datas[0].langue)
   const dataLangue = datas.find((x) => x.langue === langue)
   const { headerProps, setHeaderProps } = useContext(SharedStateContext)
   const result = datas.find((data) => data.id === headerProps)
 
-  console.log(result)
-  const phone = result.contacts[0]
-  const Email = result.contacts[1]
-  const Linkedin = result.contacts[2]
-  const GitHub = result.contacts[3]
+  const Email = result.contacts[0]
+  const Linkedin = result.contacts[1]
+  const GitHub = result.contacts[2]
 
   useEffect(() => {
     if (headerProps !== null) {
@@ -42,37 +40,35 @@ function Curriculum() {
   return (
     <main className="main">
       <Menu></Menu>
-
       <div className="curriculum">
-        {/* ---Coté gauche du curricukum---*/}
-        <div className="partie_">
-          <img className="header_img" src={matete01} alt="Auteur" />
-          <div>
+        {/* ---side left of curricukum---*/}
+        <div className="frame">
+          <img className="head_img" src={matete01} alt="Auteur" />
+          <div className="contact">
             <h2>Contact</h2>
-            <div className="footer_list">
-              <ul>
-                <li>{phone}</li>
-                <li>{Email}</li>
-                <li>{Linkedin}</li>
-                <li>{GitHub}</li>
+            <div className="contact_bloc">
+              <ul className="contact_bloc_list">
+                <li className="contact_bloc_list_li">{Email}</li>
+                <li className="contact_bloc_list_li">{Linkedin}</li>
+                <li className="contact_bloc_list_li">{GitHub}</li>
               </ul>
             </div>
           </div>
-          <div>
-            <h4>Langues</h4>
-            <ul>
+          <div className="language">
+            <h2>Langues</h2>
+            <ul className="language_list">
               <li>{result.competences.langues[0]}</li>
               <li>{result.competences.langues[1]}</li>
               <li>{result.competences.langues[2]}</li>
             </ul>
           </div>
-          <div>
-            <h3>Centres d'Intérêt</h3>
-            <p>{result.interet}</p>
+          <div className="hobbies">
+            <h2>Centres d'Intérêt</h2>
+            <p className="hobbies_list">{result.interet}</p>
           </div>
-          <div>
-            <h3>Skills</h3>
-            <ul>
+          <div className="skills">
+            <h2>Compétences</h2>
+            <ul className="skills_list">
               <li>
                 <h4>Informatique</h4>
                 <p>{result.competences.informatique}</p>
@@ -92,7 +88,7 @@ function Curriculum() {
             </ul>
           </div>
         </div>
-        {/* ---Coté droit du curricukum---*/}
+        {/* --- side right of curricukum ---*/}
         <div>
           <div className="header">
             <div className="header_auteur">
@@ -149,8 +145,7 @@ function Curriculum() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </main>
   )
 }
-
-export default Curriculum

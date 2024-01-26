@@ -1,0 +1,50 @@
+@import '../../styles/sass/mixins/mixins';
+
+.main {
+  @include flex-column;
+  @include align-center;
+  border-radius: 10px;
+}
+
+.curriculum {
+  @include flex-row;
+  @include align-center;
+  margin: 20px 10px;
+  background-color: var(--fourth-color);
+  border-radius: 10px;
+}
+
+/* ---side left of curricukum---*/
+.frame {
+  @include flex-column;
+  @include align-center;
+  margin-left: 5%;
+  max-width: 300px;
+  height: auto;
+  color: var(--white-color);
+  background-color: var(--tertiary-color);
+  .head_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid none;
+    margin-left: 10px;
+  }
+  .contact,
+  .language,
+  .hobbies,
+  .skills {
+    @include flex-column;
+    @include align-center;
+    width: 90%;
+  }
+  .contact_list,
+  .language_list,
+  .hobbies_list,
+  .skills_list {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+/* --- side right of curricukum ---*/

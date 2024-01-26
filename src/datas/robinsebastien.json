@@ -1,4 +1,51 @@
 [
+    {   
+        "id":"100000",
+        "title":[
+            "Développeur Web !",
+            "Rien que le meilleur"
+        ],
+        "alllink":[
+            {
+                "link":"/Presentation",
+                "title":"Mon Parcours Professionnel",
+                "paraf":[
+                    "Les meilleures choses qui arrivent dans le monde de l’entreprise ne sont pas le résultat du travail d’un seul homme. C’est le travail de toute une équipe. (de Steve Jobs).",
+                    "Certains veulent que ça arrive, d’autres aimeraient que ça arrive et quelques-uns font que ça arrive. (de Michael Jordan)."
+                ]
+            },
+            {
+                "link":"/Personality",
+                "title":"Mon Expérience Personnel",
+                "paraf":[
+                    "Ce n’est pas parce que les choses sont difficiles que nous n’osons pas, c’est parce que nous n’osons pas qu’elles sont difficiles.(de Sénèque)"
+                ]
+            },
+            {
+                "link":"/Curriculum",
+                "title":"Curriculum Vitae",
+                "paraf":[
+                    "Croyez en vos rêves et ils se réaliseront peut-être. Croyez en vous et ils se réaliseront sûrement. (de Martin Luther King)",
+                    "Tenez-vous à l'écart des gens qui freinent vos ambitions. Les petits esprits font toujours cela. Les plus grands esprits seuls vous font sentir que vous aussi, pouvez devenir grand. (de Mark Twain)]"
+                ]
+            },
+            {
+                "link":"/Project",
+                "title":"Projets",
+                "paraf":[
+                    "Faites quelque chose et, si ça ne fonctionne pas, essayez autre chose. (de Franklin Delano Roosevelt)",
+                    "Il est difficile d’échouer mais il est encore plus difficile de ne pas avoir essayé de réussir. (de Théodore Roosevelt)",
+                    "La chute n’est pas un échec. L’échec c’est de rester là où on est tombé. (de Socrate)"
+                ]
+            },
+            {
+                "link":"/Annex",
+                "title":"Annexes",
+                "paraf":[""]
+            }
+        ]
+    
+    },
     {
         "id":"245788",
         "langue":"FR",
@@ -6,7 +53,7 @@
         "prenom":"Sébastien",
         "addresse":"36 Avenue des Alliés",
         "ville":"77320 La Ferté Gaucher",
-        "titre":"Junior Développeur Web",
+        "titre":"Développeur Web",
         "projets":[
             "2022: Formation Développeur Web Full-stack (niveau 5)",
             "2014: Formation Leadership niveau 1",
@@ -40,10 +87,9 @@
             "J’aime apprendre par échange de savoir."
         ],
         "contacts":[
-            "Tel: 06.21.87.11.08.",
-            "E-mail: sebastien.robin.956@gmail.com",
-            "Linkedin: https://www.linkedin.com/in/sebastien-robin-772462136/",
-            "GitHub: https://github.com/Devsebro99"
+            "sebastien.robin.956@gmail.com",
+            "https://www.linkedin.com/in/sebastien-robin-772462136/",
+            "https://github.com/Devsebro99"
         ]
     },
     {
@@ -53,7 +99,7 @@
         "prenom":"Sébastien",
         "addresse":"36 Avenue des Alliés",
         "ville":"77320 La Ferté Gaucher",
-        "titre":"Junior Web Developer",
+        "titre":"Web Developer",
         "projets":[
             "2022: Full Stack Web Developer Training",
             "2014: Level 1 Leadership Training",
@@ -87,10 +133,9 @@
             "I like to learn by exchanging knowledge."
         ],
         "contacts":[
-            "Tel:06.21.87.11.08.",
-            "E-mail: sebastien.robin.956@gmail.com",
-            "Linkedin: https://www.linkedin.com/in/sebastien-robin-772462136/",
-            "GitHub: https://github.com/Devsebro99"
+            "sebastien.robin.956@gmail.com",
+            "https://www.linkedin.com/in/sebastien-robin-772462136/",
+            "https://github.com/Devsebro99"
         ]
     }
     

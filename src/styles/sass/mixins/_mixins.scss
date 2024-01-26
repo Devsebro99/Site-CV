@@ -1,0 +1,30 @@
+@mixin flex_column() {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex_row() {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin gradient() {
+  background: linear-gradient(
+    to right,
+    var(--secondary-color) 20%,
+    var(--tertiary-color)
+  );
+}
+
+@mixin varlinear-gradient() {
+  background: linear-gradient(
+    to right,
+    var(var(--secondary-color)),
+    var(var(--tertiary-color))
+  );
+}
