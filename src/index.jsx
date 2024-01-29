@@ -9,7 +9,6 @@ import Personality from './pages/personnality/Personality.jsx'
 import Cv from './pages/curriculumvitae/Curriculum.jsx'
 import Project from './pages/project/Project.jsx'
 import Annex from './pages/annex/Annex.jsx'
-import Test from './pages/test/Test.jsx'
 import Error from './layouts/error/Fault.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -24,7 +23,6 @@ root.render(
           <Route path="/Curriculum" element={<Cv />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Annex" element={<Annex />} />
-          <Route path="/Test" element={<Test />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </SharedStateProvider>

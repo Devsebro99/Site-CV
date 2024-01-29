@@ -13,31 +13,32 @@ export default function Presentation() {
   const titlesArray = allSections.map((item) => item.title || null)
   const parafsArray = allSections.map((item) => item.paraf)
 
-  const sections = linksArray.map((link, index) => (
-    <section key={index}>
+  const card = linksArray.map((link, index) => (
+    <article className="oneCard" key={index}>
       <Link className="address" to={link}>
         <h2 className="btn">{titlesArray[index]}</h2>
       </Link>
-      <article>
+      <div>
         {parafsArray[index].map((txt, paraIndex) => (
           <p key={paraIndex}>{txt}</p>
         ))}
-      </article>
-    </section>
+      </div>
+    </article>
   ))
   return (
     <main id="siteMain">
       <div className="banner">
-        <h1 className="bannerTitle">
+        <h1 className="banner_title">
           {TitleMaster[0]} <br />
           {TitleMaster[1]}
         </h1>
         <Date></Date>
       </div>
-
       <section className="containerCenter">
-        <nav className="containerCenterTextNav">{sections}</nav>
-        <article className="containerCenterImage"></article>
+        <nav className="containerCenter_multiCard">{card}</nav>
+        <figure className="containerCenter_image">
+          <div className="containerCenter_imageChildren"></div>
+        </figure>
       </section>
       <BottomPage></BottomPage>
     </main>

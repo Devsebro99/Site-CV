@@ -13,7 +13,7 @@
     width: 95%;
     @include gradient;
     margin-bottom: 50px;
-    .bannerTitle {
+    .banner_title {
       color: var(--white-color);
       margin: 100px;
       width: 50%;
@@ -24,11 +24,23 @@
     @include flex_column;
     width: 96%;
     height: auto;
-    .containerCenterTextNav {
+    .containerCenter_multiCard {
+      @include flex_row;
       @include align-center;
+      gap: 3%;
       height: auto;
       width: 100%;
-      text-decoration: none;
+      flex-wrap: wrap;
+      .oneCard {
+        @include flex_column;
+        height: 600px;
+        width: 400px;
+        padding: 5px 10px;
+        margin: 10px 0px;
+        border: 2px solid var(--black-color);
+        border-radius: 5%;
+        box-shadow: 10px 5px 5px var(--black-color);
+      }
       .address {
         display: flex;
         @include align-center;
@@ -73,16 +85,35 @@
         }
       }
     }
-    .containerCenterImage {
+    .containerCenter_image {
+      position: relative;
       @include flex_column;
       @include align-center;
       margin: 50px 0px;
       width: 100%;
       height: 600px;
-      background-image: url('../../assets/ordiLove.webp');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        @include gradient;
+        z-index: 0;
+      }
+      .containerCenter_imageChildren {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/ordiLove.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+      }
     }
   }
 }
