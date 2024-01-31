@@ -10,9 +10,8 @@
   .banner {
     @include flex_row;
     @include align-center;
-    width: 95%;
+    width: 100%;
     @include gradient;
-    margin-bottom: 50px;
     .banner_title {
       color: var(--white-color);
       margin: 100px;
@@ -22,8 +21,13 @@
   }
   .containerCenter {
     @include flex_column;
-    width: 96%;
+    @include align-center;
+    width: 98%;
     height: auto;
+    border: 10px solid;
+    border-image: var(--gradient-colorRight);
+    border-image-slice: 1;
+    padding: 10px;
     .containerCenter_multiCard {
       @include flex_row;
       @include align-center;
@@ -87,10 +91,9 @@
     }
     .containerCenter_image {
       position: relative;
-      @include flex_column;
-      @include align-center;
+      @include flex_row;
       margin: 50px 0px;
-      width: 100%;
+      width: 60%;
       height: 600px;
       overflow: hidden;
 
@@ -104,15 +107,37 @@
         @include gradient;
         z-index: 0;
       }
-      .containerCenter_imageChildren {
+      .containerCenter_image_picture {
         position: relative;
-        width: 100%;
-        height: 100%;
+        height: 600px;
+        width: 400px;
         background-image: url('../../assets/ordiLove.webp');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        transform: scale(0.8) rotate(-3deg);
+        box-shadow: 10px 5px 5px var(--black-color);
+        border-radius: 5%;
         z-index: 1;
+      }
+      .containerCenter_image_cardAnnex {
+        position: absolute;
+        top: 0;
+        right: 0;
+        @include flex_column;
+        text-align: center;
+        height: 600px;
+        width: 400px;
+        padding: 5px 10px;
+        border: 2px solid var(--black-color);
+        border-radius: 5%;
+        box-shadow: 10px 5px 5px var(--black-color);
+        background-color: var(--white-color);
+        transform: scale(0.8) rotate(3deg);
+
+        .oneCard_title {
+          text-decoration: none;
+        }
       }
     }
   }

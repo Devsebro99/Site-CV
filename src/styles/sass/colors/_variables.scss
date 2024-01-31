@@ -3,12 +3,12 @@
   --secondary-color: #9356dc;
   --tertiary-color: #273bb7;
   --fourth-color: darkgray;
-  --five-color:red;
+  --five-color: red;
   --black-color: black;
   --white-color: #ffffff;
-  
 
-  --gradiant-color: linear-gradient(
+  --gradient-colorRight: linear-gradient(
+    to right,
     var(--secondary-color),
     var(--tertiary-color)
   );
@@ -20,5 +20,6 @@
 /* var(--fourth-color) */
 /* var(--five-color)*/
 /* var(--gradiant-color) */
+/* var(--gradient-colorLeft */
 /* var(--black-color) */
 /* var(--white-color) */
